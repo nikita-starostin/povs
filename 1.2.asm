@@ -38,8 +38,6 @@ LOOP_INNER: ; for (loop_count = array_size
     SUBWF value_left, 0 ; W = value_left - W
     BTFSS STATUS, 0 ; if W > 0 (i.e. value_left < value_right)
     GOTO LOOP_INNER_END
-    BTFSC STATUS, 2 ; if W = 0 (i.e. value_left < value_right)
-    GOTO LOOP_INNER_END
     
     ; swap
     ; move value_right to array[array_index]
