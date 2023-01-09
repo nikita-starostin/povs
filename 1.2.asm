@@ -1,4 +1,3 @@
-
 #include "p16f84.inc"
 
 array_addr    set 0x30
