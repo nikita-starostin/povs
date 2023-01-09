@@ -47,4 +47,5 @@ FINISHED:
 	CLRF array_start
 	CLRF str_length
 	CLRF mem_str_start
+    end
 
