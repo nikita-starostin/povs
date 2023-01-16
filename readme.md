@@ -9,3 +9,8 @@ https://embetronicx.com/tutorials/microcontrollers/pic16f877a/pic16f877a-interru
 https://www.bristolwatch.com/k150/f84e.htm
 
 https://www.bristolwatch.com/k150/f84b.htm
+
+CONFG:
+ WRT - data eeprom memory protection bits
+ CPD - flash program memory write enable bits
+ CP - code protection
